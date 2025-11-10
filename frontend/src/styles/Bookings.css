@@ -1,0 +1,42 @@
+.bookings-page {
+  padding: 20px 0;
+}
+
+.status-select {
+  padding: 8px 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.status-select.confirmed {
+  background: #cfe2ff;
+  color: #084298;
+  border-color: #084298;
+}
+
+.status-select.checked-in {
+  background: #d1e7dd;
+  color: #0f5132;
+  border-color: #0f5132;
+}
+
+.status-select.checked-out {
+  background: #e2e3e5;
+  color: #41464b;
+  border-color: #41464b;
+}
+
+.status-select.cancelled {
+  background: #f8d7da;
+  color: #842029;
+  border-color: #842029;
+}
+
+.status-select:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+}
