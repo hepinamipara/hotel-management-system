@@ -27,11 +27,13 @@ nohup npm start > app.log 2>&1 &
 
 ### 4. Configuration (For EC2 Deployment)
 
-Edit `frontend/src/services/api.js` and change:
+Edit `frontend/src/services/config.js` and change:
 
 ```javascript
-const API_URL = 'http://YOUR_EC2_PUBLIC_IP:5000/api';
+const API_BASE_URL = "http://www.hepin.site:5000/api";  
+const API_BASE_URL = 'http://YOUR_EC2_PUBLIC_IP:5000/api';
 ```
+if you have not domain name than use second url with ec2-publicip
 
 Example:
 ```javascript
