@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: 841162679501.dkr.ecr.us-east-1.amazonaws.com/backend:3
+        image: hepinamipara/backend:latest
         ports:
         - containerPort: 5000
         env:
