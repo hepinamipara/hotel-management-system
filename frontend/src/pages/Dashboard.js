@@ -43,7 +43,7 @@ function Dashboard() {
 
   return (
     <div className="dashboard">
-      <h1 className="dashboard-title">Dashboard</h1>
+      <h1 className="dashboard-title">Dashboard hotel Amipara</h1>
       <div className="stats-grid">
         <div className="stat-card blue">
           <div className="stat-icon">🏨</div>

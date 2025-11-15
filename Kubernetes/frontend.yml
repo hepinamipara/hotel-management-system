@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: hepinamipara/frontend:latest
+        image: hepinamipara/frontend:1
         ports:
         - containerPort: 3000
       #  env:   # <-- Fixed indentation
